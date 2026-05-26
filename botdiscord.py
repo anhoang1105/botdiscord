@@ -5,7 +5,7 @@ from keep_alive import keep_alive
 
 # Lấy Token từ biến môi trường (Sẽ cài đặt trên Render sau)
 TOKEN = os.getenv("DISCORD_TOKEN")
-TRAP_CHANNEL_ID = 123456789012345678  # Thay bằng ID kênh thật của bạn
+TRAP_CHANNEL_ID = 1508654735110963250  # Thay bằng ID kênh thật của bạn
 
 intents = discord.Intents.default()
 intents.message_content = True
